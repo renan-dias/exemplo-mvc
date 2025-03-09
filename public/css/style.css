@@ -1,0 +1,40 @@
+/* Arquivo: public/css/style.css */
+/* Descrição: Folha de estilos personalizada. */
+
+/* Variáveis de cor */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Efeitos de transição */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Animações com keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease;
+}
