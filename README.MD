@@ -31,7 +31,7 @@ Antes de começarmos, certifique-se de ter o seguinte instalado:
 1.  **Clone este repositório:**
 
     ```bash
-    git clone [URL_DO_SEU_REPOSITÓRIO]
+    git clone github.com/renan-dias/exemplo-mvc.git
     ```
 
 2.  **Configure o banco de dados:**
