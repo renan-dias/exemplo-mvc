@@ -4,9 +4,9 @@
 
 // Configurações do banco de dados (exemplo)
 define('DB_HOST', 'localhost');
-define('DB_USER', 'seu_usuario');
-define('DB_PASS', 'sua_senha');
-define('DB_NAME', 'seu_banco');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'estoque');
 
 // Outras configurações (exemplo)
 define('APP_NAME', 'Estoque MVC');
